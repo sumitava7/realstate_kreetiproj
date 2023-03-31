@@ -50,7 +50,7 @@
 }
 
 .navbarlogo {
-  width: 100%;
+  width: 300px;
 }
 
 /* hamburger menu using checkbox */
@@ -135,16 +135,9 @@ a {
 .swiper {
   width: 90%;
 }
-section {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  background-color: #02cd02;
-}
 
 section .card .image {
-  height: 380px;
+  height: 412px;
   background: #02cd02;
 }
 section .card .image img {
@@ -170,10 +163,10 @@ section .card .image img {
 }
 
 section .card .about {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #fffffe;
-  font-weight: lighter;
-  padding: 15px 0;
+  font-weight: 200;
+  padding: 15px 8px;
   line-height: 1.8;
   text-align: center;
   background-color: #02cd02;
@@ -200,7 +193,7 @@ section .card .about {
   opacity: 1;
   color: #fffffe;
   transition: all 0.3s ease;
-  top: 65%;
+  top: 700px;
 }
 .swiper-button-next:hover,
 .swiper-button-prev:hover {
@@ -248,7 +241,7 @@ section .card .about {
 /* Property card images */
 .property {
   width: 50%;
-  padding: 0 32px 0 0;
+  padding: 0 45px 30px 0;
   margin-bottom: 2rem;
 }
 
@@ -256,8 +249,8 @@ section .card .about {
   background-color: black;
 }
 .seller-image {
-  height: 600px;
-  width: 100%;
+  height: 580px;
+  width: 100%; 
 }
 
 .sellerimagefooter {
@@ -265,7 +258,8 @@ section .card .about {
   padding: 15px;
   background-color: black;
   display: flex;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 400;
   justify-content: space-between;
 }
 
@@ -392,6 +386,15 @@ section .card .about {
   .nav-link {
     gap: 2em;
   }
+  
+  section .card .image {
+    height: 300px;
+  }
+
+  .seller-image {
+    height: 400px;
+    width: 100%; 
+  }
 
   .sellerimagefooter {
     font-size: 0.8rem;
@@ -406,7 +409,7 @@ section .card .about {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
   .agentsection {
     margin-bottom: 10px;
   }
@@ -467,6 +470,11 @@ section .card .about {
     font-size: 0.9rem;
   }
 
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 600px;
+  }
+
   .bestseller-text {
     font-size: 2.2rem;
   }
@@ -481,7 +489,7 @@ section .card .about {
   }
 
   .sellerimagefooter {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
   }
 
   .containerproperty {
@@ -522,23 +530,22 @@ section .card .about {
   .card {
     padding: 0 5% 5%;
   }
+
+  section .card .about {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
   section .card .image {
     height: 250px;
-    padding: 0 10px;
+    padding: 0 20px;
   }
 
   .card .card-content {
     padding: 0 10px;
   }
 
-  .seller-image {
-    height: 450px;
-  }
-
-  .section .card .about {
-    font-size: 0.8rem;
-  }
-
+ 
   .bestseller-text {
     font-size: 1.8rem;
   }
@@ -569,6 +576,10 @@ section .card .about {
     height: 380px;
     width: 100%;
   }
+  .sellerimagefooter {
+    font-size: 0.9rem;
+  }
+
 }
 
 @media screen and (max-width: 375px) {
@@ -580,19 +591,15 @@ section .card .about {
     height: 250px;
   }
 
-  .swiper-button-next,
-  .swiper-button-prev {
-    display: none;
-  }
-
   .property {
     width: 100%;
     height: 30%;
     padding: 10% 5%;
+    font-size: 0.9rem;
   }
 
   .seller-image {
-    height: 2 00px;
+    height: 350px;
     width: 100%;
   }
 }
