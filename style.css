@@ -578,6 +578,7 @@ section .card .about {
   }
   .sellerimagefooter {
     font-size: 0.9rem;
+    padding: 10px;
   }
 
 }
