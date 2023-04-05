@@ -7,74 +7,59 @@
   font-family: "K2D", sans-serif;
   scroll-behavior: smooth;
 }
-
 .header {
-  /* position: fixed; */
   z-index: 5;
   width: 100%;
   margin-bottom: 25px;
   box-shadow: 0px 0 10px #979490;
 }
-
 .mobtext {
   width: 100%;
   display: flex;
   justify-content: end;
   padding: 0 15px 0 0;
 }
-
 .mobilePhone {
   width: 50px;
   padding: 8px;
   display: inline;
 }
-
 .phonetext {
   display: inline;
   padding: 15px 0 0 0;
   color: #979490;
   font-weight: 200;
   font-size: 1.1rem;
+  cursor: pointer;
 }
-
 /* navigation menu */
-
 .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
 }
-
 .nav-image {
   display: inline;
 }
-
 .navbarlogo {
   width: 300px;
 }
-
 /* hamburger menu using checkbox */
-
 input[type="checkbox"] {
   display: none;
 }
-
-/*HAMBURGER MENU*/
-
 .hamburger {
   display: none;
   font-size: 32px;
   user-select: none;
 }
-
 .nav-link {
   display: flex;
   gap: 5em;
   font-size: 1.4rem;
   font-weight: 400;
 }
-
 .nav-link,
 li,
 a {
@@ -82,13 +67,11 @@ a {
   text-decoration: none;
   list-style: none;
 }
-
 .nav-link a:hover {
   color: #02cd02;
   font-weight: bold;
   transition: all 0.1s ease 0s;
 }
-
 #agent-carousel {
   display: block;
   align-items: center;
@@ -96,13 +79,11 @@ a {
   background-color: #02cd02;
   padding-bottom: 30px;
 }
-
 .agentsection {
   display: block;
   text-align: center;
   margin-bottom: 20px;
 }
-
 .agent-text {
   font-weight: bold;
   font-size: 3rem;
@@ -110,14 +91,12 @@ a {
   background-color: #02cd02;
   color: #efefef;
 }
-
 .agent-description {
   font-size: 1.8rem;
   background-color: #02cd02;
   color: #efefef;
   padding: 0 15% 20px;
 }
-
 .card {
   position: relative;
   display: flex;
@@ -136,16 +115,15 @@ a {
 .swiper {
   width: 90%;
 }
-
 section .card .image {
-  height: 412px;
+  height: 418px;
   background: #02cd02;
 }
 section .card .image img {
   height: 100%;
   width: 100%;
+  background-size: cover;
 }
-
 .card .name-profession {
   font-size: 1.5rem;
   font-weight: bold;
@@ -162,7 +140,6 @@ section .card .image img {
   color: #fffffe;
   background-color: #02cd02;
 }
-
 section .card .about {
   font-size: 1.3rem;
   color: #fffffe;
@@ -172,23 +149,19 @@ section .card .about {
   text-align: center;
   background-color: #02cd02;
 }
-
 .social-media {
   display: flex;
   height: 40px;
   justify-content: center;
 }
-
 .facebook-link {
   background-color: #02cd02;
   width: 2.5rem;
 }
-
 .twitter-link {
   background-color: #02cd02;
   width: 2.5rem;
 }
-
 .swiper-button-next,
 .swiper-button-prev {
   opacity: 1;
@@ -208,21 +181,17 @@ section .card .about {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
-
 /* Bestseller property heading */
-
 #building-properties {
   display: flex;
   flex-direction: column;
   background-color: #fffffe;
 }
-
 .propertysection {
   margin-top: 20px;
   display: block;
   text-align: center;
 }
-
 .bestseller-text {
   display: block;
   font-weight: bolder;
@@ -230,7 +199,6 @@ section .card .about {
   padding: 1rem 0 1rem 0;
   color: #02cd02;
 }
-
 .bestseller-description {
   font-weight: 500;
   font-size: 1.8rem;
@@ -238,22 +206,19 @@ section .card .about {
   text-align: center;
   color: #979490;
 }
-
 /* Property card images */
 .property {
   width: 50%;
   padding: 0 45px 30px 0;
   margin-bottom: 2rem;
 }
-
 .property-image {
   background-color: black;
 }
 .seller-image {
   height: 580px;
-  width: 100%; 
+  width: 100%;
 }
-
 .sellerimagefooter {
   color: #fffffe;
   padding: 15px;
@@ -263,40 +228,33 @@ section .card .about {
   font-weight: 400;
   justify-content: space-between;
 }
-
 .sellerimage-footer-text {
   background: black;
 }
-
 .seller-title {
   font-size: 1.6rem;
   font-weight: 400;
   padding: 20px 0 0;
 }
-
 .seller-description {
   text-align: start;
 }
-
 .seller-price {
   color: #02cd02;
   font-weight: bold;
   font-size: 1.2rem;
   margin: 20px 0 0;
 }
-
 .seller-description-text {
   margin: 20px 0;
   line-height: 2;
   color: #979490;
   font-weight: bold;
 }
-
 .description-footer {
   display: flex;
   align-items: flex-start;
 }
-
 .description-footer-shoppingbag {
   height: 30px;
   width: 30px;
@@ -304,56 +262,46 @@ section .card .about {
   margin-top: 5px;
   display: inline;
 }
-
 .shopping-cart-description {
   color: #979490;
   display: inline;
   padding: 10px;
+  cursor: pointer;
 }
-
 /* footer */
-
 .footer {
   position: relative;
   clear: both;
 }
-
 .footer-text {
   background-color: #efefef;
   padding: 10px 10px 20px 10px;
   text-align: center;
   font-size: 1.2rem;
+  font-weight: 500;
 }
-
 .footer-text p {
   background-color: #efefef;
 }
-
 @media screen and (min-width: 2024px) {
   .top-nav {
     height: 80px;
   }
-
   .header {
     padding: 0 25%;
   }
-
   .mobtext {
     justify-content: center;
   }
-
   .top-nav {
     justify-content: space-evenly;
   }
-
   .agent-description {
     padding: 0 30%;
   }
-
   .swiper {
     width: 50%;
   }
-
   .section {
     margin: auto;
     padding: 0 20%;
@@ -362,7 +310,6 @@ section .card .about {
   section .card .image {
     height: 400px;
   }
-
   .property {
     margin: 20px;
     padding: 0 12%;
@@ -373,7 +320,6 @@ section .card .about {
   .swiper-button-prev {
     left: 15%;
   }
-
   .bestseller-description {
     padding: 0 30%;
   }
@@ -383,28 +329,22 @@ section .card .about {
   .menu {
     padding: 0 -20px;
   }
-
   .nav-link {
     gap: 2em;
   }
-  
   section .card .image {
     height: 300px;
   }
-
   .seller-image {
     height: 400px;
-    width: 100%; 
+    width: 100%;
   }
-
   .sellerimagefooter {
     font-size: 0.8rem;
   }
-
   .agent-description {
     font-size: 1.4rem;
   }
-
   .bestseller-description {
     font-size: 1.3rem;
   }
@@ -414,12 +354,10 @@ section .card .about {
   .agentsection {
     margin-bottom: 10px;
   }
-
   .navbarlogo {
     height: 50px;
     width: 250px;
   }
-
   .nav-link {
     display: none;
     position: absolute;
@@ -430,69 +368,56 @@ section .card .about {
     padding: 10px 0;
     z-index: 5;
   }
-
   input[type="checkbox"]:checked ~ .nav-link {
     display: block;
     margin-top: 10px;
     margin-bottom: 20px;
     z-index: 5;
   }
-
   .nav-link li {
     margin-bottom: 10px;
   }
-
   .nav-link a:hover {
     display: inline-block;
     color: #02cd02;
     transition: all 0.8s ease 0s;
   }
-
   .hamburger {
     display: block;
     padding: 0 5px;
     color: #02cd02;
     font-size: 30px;
   }
-
   .agent-description {
     font-size: 1.2rem;
   }
-
   .card {
     padding: 0 1% 2%;
   }
-
   section .card .image {
     height: 300px;
+    padding: 0 6px;
   }
-
   section .card .about {
     font-size: 0.9rem;
   }
-
   .swiper-button-next,
   .swiper-button-prev {
     top: 600px;
   }
-
   .bestseller-text {
     font-size: 2.2rem;
   }
-
   .bestseller-description {
     font-size: 1.5rem;
     font-weight: 300;
   }
-
   #building-properties {
     padding: 0 25px;
   }
-
   .sellerimagefooter {
     font-size: 1.1rem;
   }
-
   .containerproperty {
     display: block;
     margin: 0;
@@ -506,7 +431,6 @@ section .card .about {
   .property-image {
     background-color: black;
   }
-
   .seller-image {
     height: 500px;
     width: 100%;
@@ -517,54 +441,42 @@ section .card .about {
   .mobilePhone {
     width: 35px;
   }
-
   .phonetext {
     padding: 12px 0 0 0;
     font-weight: 100;
     font-size: 0.8rem;
   }
-
   .navbarlogo {
     width: 200px;
   }
-
   .card {
     padding: 0 5% 5%;
   }
-
   section .card .about {
     font-size: 1rem;
     font-weight: 400;
   }
-
   section .card .image {
     height: 250px;
     padding: 0 20px;
   }
-
   .card .card-content {
     padding: 0 10px;
   }
-
- 
   .bestseller-text {
     font-size: 1.8rem;
   }
-
   .bestseller-description {
     font-size: 1rem;
     font-weight: 300;
   }
-
   .agent-text {
     font-size: 1.6rem;
   }
-
   .agent-description {
     font-size: 1.1rem;
     font-weight: 400;
   }
-
   .property {
     width: 100%;
     height: 30%;
@@ -581,25 +493,20 @@ section .card .about {
     font-size: 0.9rem;
     padding: 10px;
   }
-
 }
-
 @media screen and (max-width: 375px) {
   .swiper {
     width: 95%;
   }
-
   section .card .image {
     height: 250px;
   }
-
   .property {
     width: 100%;
     height: 30%;
     padding: 10% 5%;
     font-size: 0.9rem;
   }
-
   .seller-image {
     height: 350px;
     width: 100%;

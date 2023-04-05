@@ -1,279 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Profile card slider using HTML, CSS & JavaScript | Swiper.js</title>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="style.css" rel="stylesheet" />
-</head>
-
-<body>
-
-
-  <header class="header">
-    <div class="mobtext">
-      <img class="mobilePhone" src="assets/mobile-phone-icon-png-0.jpg.png" alt="mobilelogo">
-      <div class="phonetext">+91 91243 56789</div>
-    </div>
-
-    <nav class="top-nav">
-      <a href="#header" class="nav-image">
-        <img class="navbarlogo" src="assets/logo.jpg" alt="realstatelogo">
-      </a>
-
-      <div class="menu">
-
-        <input type="checkbox" id="checkbox_toggle" />
-        <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-
-        <div class="nav-link">
-          <li><a href="#header">Home</a></li>
-          <li><a href="#building-properties">Properties</a></li>
-          <li><a href="#agent-carousel">Agent</a></li>
-          <li><a href="#building-properties">Blog</a></li>
-          <li><a href="#footer">Contact</a></li>
-        </div>
+  <head>
+    <title>Profile card slider using HTML, CSS & JavaScript | Swiper.js</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="mobtext">
+        <img
+          class="mobilePhone"
+          src="assets/mobile-phone-icon-png-0.jpg.png"
+          alt="mobilelogo"
+        />
+        <div class="phonetext">+91 91243 56789</div>
       </div>
-    </nav>
-  </header>
-
-  <main>
-    <section id="agent-carousel">
-      <div class="agentsection">
-        <h1 class="agent-text">Our Agents</h1>
-        <p class="agent-description">If you are going to use a passage of lorem ipsum, you need to be sure that
-          there isn't anything embarrasing hidden in the middle of the text.
-        </p>
-      </div>
-      <div class="swiper mySwiper container">
-        <div class="swiper-wrapper content">
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="assets/prof3.jpg" alt="" />
-              </div>
-
-              <div class="name-profession">
-                <span class="name">Lorem Ipsum Dolor</span>
-              </div>
-              <div class="about">
-                <p>
-                  Cras elit massa, eleifend in sodales quis, vestibulum id
-                  augue.
-                </p>
-              </div>
-              <div class="social-media">
-                <div class="facebook">
-                  <img src="assets/Facebook-3-512.png" alt="facebook link" class="facebook-link" />
-                </div>
-                <div class="twitter">
-                  <img src="assets/avb37443a9d16e06eef66.png" alt="twitter link" class="twitter-link" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="assets/prof2.jpg" alt="" />
-              </div>
-
-              <div class="name-profession">
-                <span class="name">Lorem Ipsum Dolor</span>
-              </div>
-              <div class="about">
-                <p>
-                  Cras elit massa, eleifend in sodales quis, vestibulum id
-                  augue.
-                </p>
-              </div>
-              <div class="social-media">
-                <div class="facebook">
-                  <img src="assets/Facebook-3-512.png" alt="facebook link" class="facebook-link" />
-                </div>
-                <div class="twitter">
-                  <img src="assets/avb37443a9d16e06eef66.png" alt="twitter link" class="twitter-link" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="assets/prof3.jpg" alt="" />
-              </div>
-
-              <div class="name-profession">
-                <span class="name">Lorem Ipsum Dolor</span>
-              </div>
-              <div class="about">
-                <p>
-                  Cras elit massa, eleifend in sodales quis, vestibulum id
-                  augue.
-                </p>
-              </div>
-              <div class="social-media">
-                <div class="facebook">
-                  <img src="assets/Facebook-3-512.png" alt="facebook link" class="facebook-link" />
-                </div>
-                <div class="twitter">
-                  <img src="assets/avb37443a9d16e06eef66.png" alt="twitter link" class="twitter-link" />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="swiper-slide card">
-            <div class="card-content">
-              <div class="image">
-                <img src="assets/prof4.jpg" alt="" />
-              </div>
-
-              <div class="name-profession">
-                <span class="name">Lorem Ipsum Dolor</span>
-              </div>
-              <div class="about">
-                <p>
-                  Cras elit massa, eleifend in sodales quis, vestibulum id
-                  augue.
-                </p>
-              </div>
-              <div class="social-media">
-                <div class="facebook">
-                  <img src="assets/Facebook-3-512.png" alt="facebook link" class="facebook-link" />
-                </div>
-                <div class="twitter">
-                  <img src="assets/avb37443a9d16e06eef66.png" alt="twitter link" class="twitter-link" />
-                </div>
-              </div>
-            </div>
+      <nav class="top-nav">
+        <a href="#header" class="nav-image">
+          <img class="navbarlogo" src="assets/logo.jpg" alt="realstatelogo" />
+        </a>
+        <div class="menu">
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+          <div class="nav-link">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#building-properties">Properties</a></li>
+            <li><a href="#agent-carousel">Agent</a></li>
+            <li><a href="#building-properties">Blog</a></li>
+            <li><a href="#footer">Contact</a></li>
           </div>
         </div>
-      </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
-    </section>
+      </nav>
+    </header>
+    <main>
+      <section id="agent-carousel">
+        <div class="agentsection">
+          <h1 class="agent-text">Our Agents</h1>
+          <p class="agent-description">
+            If you are going to use a passage of lorem ipsum, you need to be
+            sure that there isn't anything embarrasing hidden in the middle of
+            the text.
+          </p>
+        </div>
+        <div class="swiper mySwiper container">
+          <div class="swiper-wrapper content">
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="assets/prof3.jpg" alt="agents" class="img" />
+                </div>
+                <div class="name-profession">
+                  <span class="name">Lorem Ipsum Dolor</span>
+                </div>
+                <div class="about">
+                  <p>
+                    Cras elit massa, eleifend in sodales quis, vestibulum id
+                    augue.
+                  </p>
+                </div>
+                <div class="social-media">
+                  <div class="facebook">
+                    <img
+                      src="assets/Facebook-3-512.png"
+                      alt="facebook link"
+                      class="facebook-link"
+                    />
+                  </div>
+                  <div class="twitter">
+                    <img
+                      src="assets/avb37443a9d16e06eef66.png"
+                      alt="twitter link"
+                      class="twitter-link"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="assets/prof2.jpg" alt="agents" class="img" />
+                </div>
 
+                <div class="name-profession">
+                  <span class="name">Lorem Ipsum Dolor</span>
+                </div>
+                <div class="about">
+                  <p>
+                    Cras elit massa, eleifend in sodales quis, vestibulum id
+                    augue.
+                  </p>
+                </div>
+                <div class="social-media">
+                  <div class="facebook">
+                    <img
+                      src="assets/Facebook-3-512.png"
+                      alt="facebook link"
+                      class="facebook-link"
+                    />
+                  </div>
+                  <div class="twitter">
+                    <img
+                      src="assets/avb37443a9d16e06eef66.png"
+                      alt="twitter link"
+                      class="twitter-link"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="assets/prof3.jpg" alt="agents" class="img" />
+                </div>
 
-    <section id="building-properties">
-      <div class="propertysection">
-        <p class="bestseller-text">Bestselling Properties</p>
-        <p class="bestseller-description">If you are going to use a passage of lorem ipsum, you need to be sure
-          that there isn't anything embarrasing hidden in the middle of the text.
-        </p>
-      </div>
-      <div class="containerproperty">
+                <div class="name-profession">
+                  <span class="name">Lorem Ipsum Dolor</span>
+                </div>
+                <div class="about">
+                  <p>
+                    Cras elit massa, eleifend in sodales quis, vestibulum id
+                    augue.
+                  </p>
+                </div>
+                <div class="social-media">
+                  <div class="facebook">
+                    <img
+                      src="assets/Facebook-3-512.png"
+                      alt="facebook link"
+                      class="facebook-link"
+                    />
+                  </div>
+                  <div class="twitter">
+                    <img
+                      src="assets/avb37443a9d16e06eef66.png"
+                      alt="twitter link"
+                      class="twitter-link"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        <div class="property">
-          <div class="property-image">
-            <img src="assets/building.jpg" alt="property images" srcset="" class="seller-image">
-          </div>
+            <div class="swiper-slide card">
+              <div class="card-content">
+                <div class="image">
+                  <img src="assets/prof4.jpg" alt="agents" class="img" />
+                </div>
 
-          <div class="sellerimagefooter">
-            <p class="sellerimage-footer-text">3 Bedroom</p>
-            <p class="sellerimage-footer-text">3 Bathroom</p>
-            <p class="sellerimage-footer-text">1 Garage</p>
-          </div>
-
-          <div class="seller-description">
-            <p class="seller-title">
-              consequat sodalis magna
-            </p>
-            <p class="seller-price">Rs. 5000 sq. ft.</p>
-            <p class="seller-description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus reiciendis modi ipsa tempora eius maiores nisi sequi illo sed numquam. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, suscipit!</p>
-
-            <hr>
-
-            <div class="description-footer">
-              <img src="assets/shopping-bag-outline.png" alt="shopping-bag" srcset=""
-                class="description-footer-shoppingbag">
-              <p class="shopping-cart-description">Fuce lacina fegua consiquat</p>
+                <div class="name-profession">
+                  <span class="name">Lorem Ipsum Dolor</span>
+                </div>
+                <div class="about">
+                  <p>
+                    Cras elit massa, eleifend in sodales quis, vestibulum id
+                    augue.
+                  </p>
+                </div>
+                <div class="social-media">
+                  <div class="facebook">
+                    <img
+                      src="assets/Facebook-3-512.png"
+                      alt="facebook link"
+                      class="facebook-link"
+                    />
+                  </div>
+                  <div class="twitter">
+                    <img
+                      src="assets/avb37443a9d16e06eef66.png"
+                      alt="twitter link"
+                      class="twitter-link"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="property">
-          <div class="property-image">
-            <img src="assets/building.jpg" alt="property images" srcset="" class="seller-image">
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </section>
+      <section id="building-properties">
+        <div class="propertysection">
+          <p class="bestseller-text">Bestselling Properties</p>
+          <p class="bestseller-description">
+            If you are going to use a passage of lorem ipsum, you need to be
+            sure that there isn't anything embarrasing hidden in the middle of
+            the text.
+          </p>
+        </div>
+        <div class="containerproperty">
+          <div class="property">
+            <div class="property-image">
+              <img
+                src="assets/building.jpg"
+                alt="property images"
+                srcset=""
+                class="seller-image"
+              />
+            </div>
+            <div class="sellerimagefooter">
+              <p class="sellerimage-footer-text">3 Bedroom</p>
+              <p class="sellerimage-footer-text">3 Bathroom</p>
+              <p class="sellerimage-footer-text">1 Garage</p>
+            </div>
+            <div class="seller-description">
+              <p class="seller-title">consequat sodalis magna</p>
+              <p class="seller-price">Rs. 5000 sq. ft.</p>
+              <p class="seller-description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus reiciendis modi ipsa tempora eius maiores nisi
+                sequi illo sed numquam. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quibusdam, suscipit!
+              </p>
+              <hr />
+              <div class="description-footer">
+                <img
+                  src="assets/shopping-bag-outline.png"
+                  alt="shopping-bag"
+                  srcset=""
+                  class="description-footer-shoppingbag"
+                />
+                <span class="shopping-cart-description">
+                  Fuce lacina fegua consiquat
+                </span>
+              </div>
+            </div>
           </div>
-
-          <div class="sellerimagefooter">
-            <p class="sellerimage-footer-text">3 Bedroom</p>
-            <p class="sellerimage-footer-text">3 Bathroom</p>
-            <p class="sellerimage-footer-text">1 Garage</p>
+          <div class="property">
+            <div class="property-image">
+              <img
+                src="assets/building.jpg"
+                alt="property images"
+                srcset=""
+                class="seller-image"
+              />
+            </div>
+            <div class="sellerimagefooter">
+              <p class="sellerimage-footer-text">3 Bedroom</p>
+              <p class="sellerimage-footer-text">3 Bathroom</p>
+              <p class="sellerimage-footer-text">1 Garage</p>
+            </div>
+            <div class="seller-description">
+              <p class="seller-title">consequat sodalis magna</p>
+              <p class="seller-price">Rs. 5000 sq. ft.</p>
+              <p class="seller-description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus reiciendis modi ipsa tempora eius maiores nisi
+                sequi illo sed numquam. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quibusdam, suscipit!
+              </p>
+              <hr />
+              <div class="description-footer">
+                <img
+                  src="assets/shopping-bag-outline.png"
+                  alt="shopping-bag"
+                  srcset=""
+                  class="description-footer-shoppingbag"
+                />
+                <span class="shopping-cart-description">
+                  Fuce lacina fegua consiquat
+                </span>
+              </div>
+            </div>
           </div>
-
-          <div class="seller-description">
-            <p class="seller-title">
-              consequat sodalis magna
-            </p>
-            <p class="seller-price">Rs. 5000 sq. ft.</p>
-            <p class="seller-description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus reiciendis modi ipsa tempora eius maiores nisi sequi illo sed numquam. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, suscipit!</p>
-
-            <hr>
-
-            <div class="description-footer">
-              <img src="assets/shopping-bag-outline.png" alt="shopping-bag" srcset=""
-                class="description-footer-shoppingbag">
-              <p class="shopping-cart-description">Fuce lacina fegua consiquat</p>
+          <div class="property">
+            <div class="property-image">
+              <img
+                src="assets/building.jpg"
+                alt="property images"
+                srcset=""
+                class="seller-image"
+              />
+            </div>
+            <div class="sellerimagefooter">
+              <p class="sellerimage-footer-text">3 Bedroom</p>
+              <p class="sellerimage-footer-text">3 Bathroom</p>
+              <p class="sellerimage-footer-text">1 Garage</p>
+            </div>
+            <div class="seller-description">
+              <p class="seller-title">consequat sodalis magna</p>
+              <p class="seller-price">Rs. 5000 sq. ft.</p>
+              <p class="seller-description-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus reiciendis modi ipsa tempora eius maiores nisi
+                sequi illo sed numquam. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quibusdam, suscipit!
+              </p>
+              <hr />
+              <div class="description-footer">
+                <img
+                  src="assets/shopping-bag-outline.png"
+                  alt="shopping-bag"
+                  srcset=""
+                  class="description-footer-shoppingbag"
+                />
+                <span class="shopping-cart-description">
+                  Fuce lacina fegua consiquat
+                </span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="property">
-          <div class="property-image">
-            <img src="assets/building.jpg" alt="property images" srcset="" class="seller-image">
-          </div>
-
-          <div class="sellerimagefooter">
-            <p class="sellerimage-footer-text">3 Bedroom</p>
-            <p class="sellerimage-footer-text">3 Bathroom</p>
-            <p class="sellerimage-footer-text">1 Garage</p>
-          </div>
-
-          <div class="seller-description">
-            <p class="seller-title">
-              consequat sodalis magna
-            </p>
-            <p class="seller-price">Rs. 5000 sq. ft.</p>
-            <p class="seller-description-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus reiciendis modi ipsa tempora eius maiores nisi sequi illo sed numquam. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, suscipit!</p>
-
-            <hr>
-
-            <div class="description-footer">
-              <img src="assets/shopping-bag-outline.png" alt="shopping-bag" srcset=""
-                class="description-footer-shoppingbag">
-              <p class="shopping-cart-description">Fuce lacina fegua consiquat</p>
-            </div>
-          </div>
-        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-text">
+        Copyright &copy; 2019 realestate. All rights reserved.
       </div>
-    </section>
-  </main>
-
-
-  <footer id="footer">
-    <p class="footer-text">Copyright &copy; 2019 realestate. All rights reserved. </p>
-  </footer>
-
-
-
-
-
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-  <!-- initializing swiper slider -->
-  <script src="script.js"></script>
-</body>
-
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- initializing swiper slider -->
+    <script src="script.js"></script>
+  </body>
 </html>
