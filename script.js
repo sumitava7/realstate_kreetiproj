@@ -20,10 +20,10 @@ var swiper = new Swiper(".mySwiper", {
       0: {
         slidesPerView: 1,
       },
-      475: {
+      590: {
         slidesPerView: 2,
       },
-      1024: {
+      928: {
         slidesPerView: 3,
       },
       1440: {
