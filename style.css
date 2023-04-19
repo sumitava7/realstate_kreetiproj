@@ -95,7 +95,7 @@ a {
   font-size: 1.4rem;
   background-color: #02cd02;
   color: #efefef;
-  padding: 0 15% 20px;
+  padding: 0 11% 20px;
   font-weight: 200;
 }
 .card {
@@ -311,7 +311,7 @@ section .card .about {
     justify-content: center;
   }
   section .card .image {
-    height: 400px;
+    height: 350px;
   }
   .property {
     margin: 20px;
@@ -336,7 +336,7 @@ section .card .about {
     gap: 2.5em;
   }
   section .card .img {
-    height: 300px;
+    height: 280px;
     background-size: cover;
   }
   .seller-image {
@@ -376,7 +376,7 @@ section .card .about {
     padding: 0 1% 2%;
   }
   section .card .image .img {
-    height: 340px;
+    height: 300px;
     max-width: 300px;
   }
   section .card .about {
@@ -450,6 +450,9 @@ section .card .about {
   .footer-text {
     font-size: 0.8rem;
   }
+  .card-content {
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 475px) {
@@ -467,18 +470,22 @@ section .card .about {
   .card {
     padding: 0 5% 5%;
   }
+  .card-content {
+    width: 300px;
+  }
   section .card .about {
     font-size: 1rem;
   }
   section .card .image .img {
-    height: 320px;
+    height: 280px;
+    width: 250px;
   }
   .card .card-content {
     padding: 0 10px;
   }
   .swiper-button-next,
   .swiper-button-prev {
-    top: 660px;
+    top: 630px;
   }
   #building-properties {
     padding: 0;
@@ -524,17 +531,19 @@ section .card .about {
   }
   .card .card-content {
     padding: 0 20px;
+    width: 230px;
   }
   section .card .about {
     font-size: 0.8rem;
   }
   section .card .image .img {
-    height: 250px;
+    height: 240px;
+    width: 220px;
     padding: 0 10px;
   }
   .swiper-button-next,
   .swiper-button-prev {
-    top: 600px;
+    top: 620px;
   }
   .property {
     width: 100%;
