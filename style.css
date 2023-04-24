@@ -9,7 +9,7 @@
 .header {
   z-index: 5;
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
   box-shadow: 0px 0 10px #979490;
 }
 .mobtext {
@@ -125,6 +125,7 @@ section .card .image {
   background: #02cd02;
 }
 section .card .image img {
+  padding: 0 5px;
   height: 400px;
   width: 100%;
   background-size: contain;
@@ -149,12 +150,20 @@ section .card .about {
 .social-media {
   display: flex;
   height: 40px;
+  gap: 5px;
   justify-content: center;
 }
 .facebook-link {
   background-color: #02cd02;
   width: 2.5rem;
   cursor: pointer;
+}
+.facebook-link:hover {
+  color: #02cd02;
+  margin: -2px;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
+  border-radius: 6px;
+  transition: all 0.1s ease 0s;
 }
 .facebook_link_image {
   width: 100%;
@@ -163,6 +172,13 @@ section .card .about {
   background-color: #02cd02;
   width: 2.5rem;
   cursor: pointer;
+}
+.twitter-link:hover {
+  color: #02cd02;
+  margin: -2px;
+  box-shadow: 3px 4px 5px 0px rgba(0, 0, 0, 0.38);
+  border-radius: 6px;
+  transition: all 0.1s ease 0s;
 }
 .twitter_link_image {
   height: 100%;
@@ -214,6 +230,7 @@ section .card .about {
 }
 /* Property card images */
 .property {
+  height: 35%;
   width: 50%;
   padding: 0 45px 30px 0;
   margin-bottom: 2rem;
@@ -227,10 +244,10 @@ section .card .about {
 }
 .sellerimagefooter {
   color: #fffffe;
-  padding: 15px;
+  padding: 15px 10px;
   background-color: black;
   display: flex;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   justify-content: space-between;
 }
@@ -280,10 +297,12 @@ section .card .about {
   clear: both;
 }
 .footer-text {
+  display: block;
   background-color: #efefef;
   padding: 10px;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  opacity: 0.7;
 }
 
 @media screen and (min-width: 2024px) {
@@ -328,7 +347,7 @@ section .card .about {
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   .menu {
     padding: 0 -20px;
   }
@@ -351,6 +370,9 @@ section .card .about {
   }
   .bestseller-description {
     font-size: 1.3rem;
+  }
+  .property {
+    height: 20%;
   }
 }
 
@@ -394,25 +416,17 @@ section .card .about {
   .bestseller-description {
     font-size: 1.5rem;
   }
-  #building-properties {
-    padding: 0 25px;
-  }
-  .containerproperty {
-    display: block;
-    margin: 0;
-    padding: 0 5%;
-  }
   .property {
-    width: 100%;
-    height: 30%;
-    padding: 5% 12%;
-  }
-  .property-image {
-    background-color: black;
+    height: 10%;
+    width: 50%;
+    font-size: 0.9rem;
   }
   .seller-image {
-    height: 500px;
+    height: 350px;
     width: 100%;
+  }
+  .sellerimagefooter {
+    font-size: 0.6rem;
   }
 }
 
@@ -452,6 +466,20 @@ section .card .about {
   }
   .card-content {
     width: 400px;
+  }
+  .containerproperty {
+    display: block;
+    margin: 0;
+    padding: 0 5%;
+  }
+  .property {
+    height: 30%;
+    width: 100%;
+    padding: 0 20%;
+    font-size: 0.8rem;
+  }
+  .sellerimagefooter {
+    font-size: 0.8rem;
   }
 }
 
