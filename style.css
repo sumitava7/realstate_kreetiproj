@@ -22,7 +22,6 @@
   width: 50px;
   padding: 8px;
   display: inline;
-  cursor: pointer;
 }
 .phonetext {
   display: inline;
@@ -30,9 +29,7 @@
   color: #979490;
   font-weight: 200;
   font-size: 1.1rem;
-  cursor: pointer;
 }
-/* navigation menu */
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -45,7 +42,6 @@
 .navbarlogo {
   width: 300px;
 }
-/* hamburger menu using checkbox */
 input[type="checkbox"] {
   display: none;
 }
@@ -79,7 +75,7 @@ a {
   background-color: #02cd02;
   padding-bottom: 30px;
 }
-.agentsection {
+.agentsectionheader {
   display: block;
   text-align: center;
   margin-bottom: 20px;
@@ -103,15 +99,10 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #02cd02;
-}
-.card .card-content {
-  display: flex;
   flex-direction: column;
-  padding: 10px;
-  position: relative;
-  z-index: 100;
   background-color: #02cd02;
+  padding: 10px;
+  z-index: 100;
 }
 .swiper {
   width: 90%;
@@ -128,7 +119,6 @@ section .card .image img {
   padding: 0 5px;
   height: 400px;
   width: 100%;
-  background-size: contain;
 }
 .card-name {
   font-size: 1.3rem;
@@ -188,22 +178,8 @@ section .card .about {
 .swiper-button-prev {
   opacity: 1;
   color: #fffffe;
-  transition: all 0.3s ease;
   top: 720px;
 }
-.swiper-button-next:hover,
-.swiper-button-prev:hover {
-  opacity: 1;
-  color: #fffffe;
-}
-.containerproperty {
-  margin-top: 50px;
-  display: flex;
-  margin-left: 33%;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-/* Bestseller property heading */
 #building-properties {
   display: flex;
   flex-direction: column;
@@ -228,7 +204,14 @@ section .card .about {
   text-align: center;
   color: #979490;
 }
-/* Property card images */
+.containerproperty {
+  margin-top: 50px;
+  display: flex;
+  margin-left: 33%;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 0 0 33%;
+}
 .property {
   height: 35%;
   width: 50%;
@@ -239,7 +222,7 @@ section .card .about {
   background-color: black;
 }
 .seller-image {
-  height: 580px;
+  height: 530px;
   width: 100%;
 }
 .sellerimagefooter {
@@ -255,14 +238,13 @@ section .card .about {
   background: black;
 }
 .seller-title {
+  display: block;
   font-size: 1.6rem;
   font-weight: 400;
   padding: 20px 0 0;
 }
-.seller-description {
-  text-align: start;
-}
 .seller-price {
+  display: block;
   color: #02cd02;
   font-weight: bold;
   font-size: 1.2rem;
@@ -273,6 +255,8 @@ section .card .about {
   line-height: 2;
   color: #979490;
   font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #979490;
 }
 .description-footer {
   display: flex;
@@ -281,17 +265,15 @@ section .card .about {
 .description-footer-shoppingbag {
   height: 30px;
   width: 30px;
-  padding: 5px 0;
-  margin-top: 5px;
+  padding: 0;
+  margin-top: 2px;
   display: inline;
 }
 .shopping-cart-description {
   color: #979490;
-  display: inline;
   padding: 10px;
   cursor: pointer;
 }
-/* footer */
 .footer {
   position: relative;
   clear: both;
@@ -304,7 +286,14 @@ section .card .about {
   font-size: 1.1rem;
   opacity: 0.7;
 }
-
+@media screen and (min-width: 5024px) {
+  .swiper {
+    width: 30% !important;
+  }
+  section .card .image .img {
+    max-height: 400px !important;
+  }
+}
 @media screen and (min-width: 2024px) {
   .top-nav {
     height: 80px;
@@ -321,6 +310,9 @@ section .card .about {
   .agent-description {
     padding: 0 30%;
   }
+  section .card .image .img {
+    max-height: 300px;
+  }
   .swiper {
     width: 50%;
   }
@@ -329,21 +321,23 @@ section .card .about {
     padding: 0 20%;
     justify-content: center;
   }
-  section .card .image {
-    height: 350px;
-  }
   .property {
-    margin: 20px;
-    padding: 0 12%;
+    margin-top: 30px;
+    padding: 0 11%;
   }
   .swiper-button-next {
-    right: 15%;
+    right: 20%;
   }
   .swiper-button-prev {
-    left: 15%;
+    left: 20%;
   }
   .bestseller-description {
     padding: 0 30%;
+  }
+  .containerproperty {
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
   }
 }
 
@@ -354,13 +348,11 @@ section .card .about {
   .nav-link {
     gap: 2.5em;
   }
-  section .card .img {
+  section .card .image .img {
     height: 280px;
-    background-size: cover;
   }
   .seller-image {
-    height: 400px;
-    width: 100%;
+    height: auto;
   }
   .sellerimagefooter {
     font-size: 0.8rem;
@@ -382,15 +374,13 @@ section .card .about {
     gap: 2.5em;
     font-size: 1rem;
   }
-
-  .agentsection {
+  .agentsectionheader {
     margin-bottom: 10px;
   }
   .navbarlogo {
     height: 50px;
     width: 250px;
   }
-
   .agent-description {
     font-size: 1rem;
   }
@@ -464,9 +454,6 @@ section .card .about {
   .footer-text {
     font-size: 0.8rem;
   }
-  .card-content {
-    width: 400px;
-  }
   .containerproperty {
     display: block;
     margin: 0;
@@ -483,7 +470,7 @@ section .card .about {
   }
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 590px) {
   .mobilePhone {
     width: 35px;
   }
@@ -498,22 +485,17 @@ section .card .about {
   .card {
     padding: 0 5% 5%;
   }
-  .card-content {
-    width: 300px;
-  }
   section .card .about {
     font-size: 1rem;
+    width: 280px;
   }
   section .card .image .img {
     height: 280px;
     width: 250px;
   }
-  .card .card-content {
-    padding: 0 10px;
-  }
   .swiper-button-next,
   .swiper-button-prev {
-    top: 630px;
+    top: 640px;
   }
   #building-properties {
     padding: 0;
@@ -557,21 +539,13 @@ section .card .about {
   .agent-description {
     font-size: 0.9rem;
   }
-  .card .card-content {
-    padding: 0 20px;
-    width: 230px;
-  }
   section .card .about {
-    font-size: 0.8rem;
+    width: 220px;
   }
   section .card .image .img {
     height: 240px;
     width: 220px;
     padding: 0 10px;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    top: 620px;
   }
   .property {
     width: 100%;
