@@ -285,7 +285,7 @@ section .card .about {
   font-size: 1.1rem;
   opacity: 0.7;
 }
-@media screen and (min-width: 5024px) {
+@media screen and (min-width: 4000px) {
   .swiper {
     width: 30% !important;
   }
