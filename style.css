@@ -116,7 +116,7 @@ section .card .image {
 }
 section .card .image img {
   padding: 0 5px;
-  height: 400px;
+  height: 380px;
   width: 100%;
 }
 .card-name {
