@@ -16,36 +16,38 @@
   </head>
 
   <body>
-    <header class="header">
-      <figure class="mobtext">
-        <img
-          class="mobilePhone"
-          src="assets/mobile-phone-icon-png-0.jpg.png"
-          alt="mobilelogo"
-        />
-        <span class="phonetext">+91 91243 56789</span>
-      </figure>
-      <nav class="top-nav">
-        <a href="#header" class="nav-image">
-          <img class="navbarlogo" src="assets/logo.jpg" alt="realstatelogo" />
-        </a>
-        <div class="menu">
-          <input type="checkbox" id="checkbox_toggle" />
-          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-          <ul class="nav-link">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#building-properties">Properties</a></li>
-            <li><a href="#agent-carousel">Agent</a></li>
-            <li><a href="#building-properties">Blog</a></li>
-            <li><a href="#footer">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+    <header class="navbar-header">
+      <section class="head-contain">
+        <figure class="mobtext">
+          <img
+            class="mobilePhone"
+            src="assets/mobile-phone-icon-png-0.jpg.png"
+            alt="mobilelogo"
+          />
+          <span class="phonetext">+91 91243 56789</span>
+        </figure>
+        <nav class="top-nav">
+          <a href="#header" class="nav-image">
+            <img class="navbarlogo" src="assets/logo.jpg" alt="realstatelogo" />
+          </a>
+          <div class="menu">
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            <ul class="nav-link">
+              <li><a href="#header">Home</a></li>
+              <li><a href="#building-properties">Properties</a></li>
+              <li><a href="#agent-carousel">Agent</a></li>
+              <li><a href="#building-properties">Blog</a></li>
+              <li><a href="#footer">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
     </header>
 
     <main>
       <section id="agent-carousel">
-        <header class="agentsectionheader">
+        <header class="agent-section__header">
           <h2 class="agent-text">Our Agents</h2>
           <p class="agent-description">
             If you are going to use a passage of lorem ipsum, you need to be
@@ -56,8 +58,8 @@
         <div class="swiper mySwiper container">
           <div class="swiper-wrapper content">
             <article class="swiper-slide card">
-              <figure class="image">
-                <img src="assets/prof2.jpg" alt="agents" class="img" />
+              <figure class="card-image">
+                <img src="assets/prof6.jpg" alt="agents" class="img" />
               </figure>
               <h3 class="card-name">Lorem Ipsum Dolor</h3>
               <p class="about">
@@ -81,8 +83,8 @@
               </div>
             </article>
             <article class="swiper-slide card">
-              <figure class="image">
-                <img src="assets/prof4.jpg" alt="agents" class="img" />
+              <figure class="card-image">
+                <img src="assets/prof7.jpg" alt="agents" class="img" />
               </figure>
               <h3 class="card-name">Lorem Ipsum Dolor</h3>
               <p class="about">
@@ -106,7 +108,7 @@
               </div>
             </article>
             <article class="swiper-slide card">
-              <figure class="image">
+              <figure class="card-image">
                 <img src="assets/prof3.jpg" alt="agents" class="img" />
               </figure>
               <h3 class="card-name">Lorem Ipsum Dolor</h3>
@@ -131,8 +133,8 @@
               </div>
             </article>
             <article class="swiper-slide card">
-              <figure class="image">
-                <img src="assets/prof4.jpg" alt="agents" class="img" />
+              <figure class="card-image">
+                <img src="assets/prof2jpg" alt="agents" class="img" />
               </figure>
               <h3 class="card-name">Lorem Ipsum Dolor</h3>
               <p class="about">
@@ -162,7 +164,7 @@
         <span class="swiper-pagination"></span>
       </section>
       <section id="building-properties">
-        <header class="propertysection">
+        <header class="property-header">
           <h2 class="bestseller-text">Bestselling Properties</h2>
           <p class="bestseller-description">
             If you are going to use a passage of lorem ipsum, you need to be
@@ -170,7 +172,7 @@
             the text.
           </p>
         </header>
-        <div class="containerproperty">
+        <div class="container-property">
           <article class="property">
             <figure class="property-image">
               <img
@@ -178,7 +180,7 @@
                 alt="property images"
                 class="seller-image"
               />
-              <figcaption class="sellerimagefooter">
+              <figcaption class="seller-image__footer">
                 <span class="sellerimage-footer-text">3 Bedroom</span>
                 <span class="sellerimage-footer-text">3 Bathroom</span>
                 <span class="sellerimage-footer-text">1 Garage</span>
@@ -210,7 +212,7 @@
                 alt="property images"
                 class="seller-image"
               />
-              <figcaption class="sellerimagefooter">
+              <figcaption class="seller-image__footer">
                 <span class="sellerimage-footer-text">3 Bedroom</span>
                 <span class="sellerimage-footer-text">3 Bathroom</span>
                 <span class="sellerimage-footer-text">1 Garage</span>
@@ -242,7 +244,7 @@
                 alt="property images"
                 class="seller-image"
               />
-              <figcaption class="sellerimagefooter">
+              <figcaption class="seller-image__footer">
                 <span class="sellerimage-footer-text">3 Bedroom</span>
                 <span class="sellerimage-footer-text">3 Bathroom</span>
                 <span class="sellerimage-footer-text">1 Garage</span>
