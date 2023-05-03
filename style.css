@@ -204,7 +204,7 @@ section .card .about {
   margin: 50px 0;
   display: grid;
   grid-template-columns: 33% 33%;
-  gap :20px;
+  gap: 20px;
   justify-content: end;
   padding: 0 20px;
 }
@@ -418,7 +418,7 @@ section .card .about {
   .bestseller-description {
     font-size: 1rem;
   }
-  .container-property{
+  .container-property {
     grid-template-columns: 90%;
   }
   .agent-text {
