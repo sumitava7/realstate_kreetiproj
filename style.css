@@ -113,7 +113,7 @@ a {
 .card-image {
   display: flex;
   justify-content: center;
-  height: 340px;
+  max-width: 400px;
 }
 .img {
   padding: 0 5px;
@@ -176,7 +176,7 @@ section .card .about {
 .swiper-button-prev {
   opacity: 1;
   color: #fffffe;
-  top: 720px;
+  top: 710px;
 }
 #building-properties {
   display: flex;
@@ -277,12 +277,9 @@ section .card .about {
   font-size: 1.2rem;
   opacity: 0.7;
 }
-@media screen and (min-width: 5200px) {
+@media screen and (min-width: 4200px) {
   .swiper {
     width: 30% !important;
-  }
-  .img {
-    width: 400px;
   }
 }
 @media screen and (min-width: 2024px) {
@@ -322,6 +319,9 @@ section .card .about {
   .seller-title {
     font-size: 1.3rem;
   }
+  section .card .about {
+    font-size: 1.1rem;
+  }
   .seller-image__footer {
     font-size: 0.8rem;
   }
@@ -344,16 +344,6 @@ section .card .about {
   }
   .agent-description {
     font-size: 1rem;
-  }
-  .card {
-    padding: 0 1% 2%;
-  }
-  .about {
-    font-size: 1rem;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    top: 630px;
   }
   .property {
     font-size: 0.8rem;
@@ -394,6 +384,16 @@ section .card .about {
     color: #02cd02;
     font-size: 30px;
   }
+  .card-name{
+    font-size: 1.1rem;
+  }
+  section .card .about {
+    font-size: 0.9rem;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 630px;
+  }
   .footer-text {
     font-size: 0.8rem;
   }
@@ -408,7 +408,7 @@ section .card .about {
     font-size: 0.8rem;
   }
 }
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 490px) {
   .mobilePhone {
     width: 35px;
   }
@@ -420,21 +420,12 @@ section .card .about {
   .navbarlogo {
     width: 200px;
   }
-  .card {
-    padding: 0 5% 5%;
+  .img{
+    width: 260px;
   }
-  .card-image {
-    height: 280px;
-  }
-  .img {
-    width: 300px;
-  }
-  .about {
-    width: 360px;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    top: 670px;
+  section .card .about {
+    font-size: 0.9rem;
+    width: 220px;
   }
   .bestseller-text {
     font-size: 1.5rem;
@@ -455,10 +446,6 @@ section .card .about {
     width: 160px;
   }
   .img {
-    width: 220px;
-  }
-  section .card .about {
-    font-size: 0.9rem;
     width: 220px;
   }
   .property {
