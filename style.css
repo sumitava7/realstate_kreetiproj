@@ -113,7 +113,7 @@ a {
 .card-image {
   display: flex;
   justify-content: center;
-  height: 360px;
+  height: 340px;
 }
 .img {
   padding: 0 5px;
