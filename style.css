@@ -12,7 +12,7 @@
   margin-bottom: 45px;
   box-shadow: 0px 0 10px #979490;
 }
-.head-contain{
+.head-contain {
   max-width: 1920px;
   margin: 0 auto;
 }
@@ -281,7 +281,7 @@ section .card .about {
   .swiper {
     width: 30% !important;
   }
-  .img{
+  .img {
     width: 400px;
   }
 }
@@ -289,7 +289,7 @@ section .card .about {
   .agent-description {
     padding: 0 30% 1%;
   }
-  .swiper{
+  .swiper {
     width: 60%;
   }
   .container-property {
@@ -423,6 +423,9 @@ section .card .about {
   .card {
     padding: 0 5% 5%;
   }
+  .card-image {
+    height: 250px;
+  }
   .img {
     width: 300px;
   }
@@ -450,9 +453,6 @@ section .card .about {
 @media screen and (max-width: 375px) {
   .navbarlogo {
     width: 160px;
-  }
-  .card-image {
-    height: 250px;
   }
   .img {
     width: 220px;
