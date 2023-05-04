@@ -73,9 +73,6 @@ a {
   transition: all 0.1s ease 0s;
 }
 #agent-carousel {
-  display: block;
-  align-items: center;
-  justify-content: center;
   background-color: #02cd02;
   padding-bottom: 30px;
 }
@@ -262,10 +259,6 @@ section .card .about {
   padding: 8px;
   cursor: pointer;
 }
-.footer {
-  position: relative;
-  clear: both;
-}
 .footer-text {
   display: block;
   background-color: #efefef;
@@ -383,14 +376,14 @@ section .card .about {
   .swiper-button-prev {
     top: 630px;
   }
-  .footer-text {
-    font-size: 0.8rem;
-  }
   .container-property {
     display: grid;
     grid-template-columns: 60%;
     justify-content: center;
     row-gap: 30px;
+  }
+  .footer-text {
+    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 490px) {
