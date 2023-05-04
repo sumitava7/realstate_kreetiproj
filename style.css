@@ -108,7 +108,7 @@ a {
   width: 90%;
 }
 .card-image {
-  max-width: 400px;
+  max-width: 380px;
 }
 .img {
   padding: 0 5px;
@@ -264,7 +264,6 @@ section .card .about {
   background-color: #efefef;
   padding: 10px;
   text-align: center;
-  font-size: 1.2rem;
   opacity: 0.7;
 }
 @media screen and (min-width: 4200px) {
@@ -314,7 +313,7 @@ section .card .about {
     font-size: 1.3rem;
   }
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
   .nav-link {
     display: flex;
     gap: 2.5em;
@@ -331,7 +330,7 @@ section .card .about {
     font-size: 2.2rem;
     padding: 10px 10px;
   }
-  .property {
+  .seller-description-text {
     font-size: 0.8rem;
   }
 }
@@ -370,7 +369,7 @@ section .card .about {
     font-size: 1.1rem;
   }
   section .card .about {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .swiper-button-next,
   .swiper-button-prev {
@@ -381,9 +380,6 @@ section .card .about {
     grid-template-columns: 60%;
     justify-content: center;
     row-gap: 30px;
-  }
-  .footer-text {
-    font-size: 0.8rem;
   }
 }
 @media screen and (max-width: 490px) {
@@ -417,6 +413,9 @@ section .card .about {
   .agent-text {
     font-size: 1.8rem;
   }
+  .footer-text {
+    font-size: 0.8rem;
+  }
 }
 @media screen and (max-width: 375px) {
   .navbarlogo {
@@ -427,8 +426,5 @@ section .card .about {
   }
   .sellerimage-footer-text {
     font-size: 0.7rem;
-  }
-  .footer-text {
-    font-size: 0.6rem;
   }
 }
