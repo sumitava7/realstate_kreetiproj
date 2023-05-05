@@ -106,6 +106,7 @@ a {
 }
 .swiper {
   width: 90%;
+  max-width: 1720px;
 }
 .card-image {
   max-width: 380px;
@@ -266,11 +267,7 @@ section .card .about {
   text-align: center;
   opacity: 0.7;
 }
-@media screen and (min-width: 4200px) {
-  .swiper {
-    width: 30% !important;
-  }
-}
+
 @media screen and (min-width: 2024px) {
   .agent-description {
     padding: 0 30% 1%;
