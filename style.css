@@ -269,10 +269,10 @@ section .card .about {
 }
 @media screen and (min-width: 3040px) {
   .swiper-button-next {
-    right: 15%;
+    right: 20%;
   }
   .swiper-button-prev {
-    left: 15%;
+    left: 20%;
   }
 }
 @media screen and (min-width: 1980px) {
@@ -311,6 +311,9 @@ section .card .about {
   .navbarlogo {
     height: 50px;
     width: 250px;
+  }
+  .img {
+    max-width: 300px;
   }
   .agent-description {
     font-size: 1rem;
